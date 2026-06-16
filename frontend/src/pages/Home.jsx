@@ -1,8 +1,11 @@
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+
 function Home() {
   return (
     <div>
-      <h1>CareerPilot AI</h1>
-      <p>Your AI Career Assistant</p>
+      <Navbar />
+      <Hero />
     </div>
   );
 }
