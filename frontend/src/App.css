@@ -1,34 +1,13 @@
-nav {
-  background: #1e293b;
-  color: white;
-  padding: 20px;
+#root {
+  width: 100%;
+  min-height: 100vh;
 }
 
-section {
-  text-align: center;
-  padding: 120px 20px;
-}
-
-h1 {
-  font-size: 50px;
-  margin-bottom: 20px;
-}
-
-p {
-  font-size: 22px;
-  margin-bottom: 30px;
-}
-
-button {
-  padding: 15px 30px;
-  font-size: 18px;
-  border: none;
-  background: #2563eb;
-  color: white;
-  border-radius: 8px;
-  cursor: pointer;
-}
-
-button:hover {
-  background: #1d4ed8;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+  color: #1e293b;
+  overflow-x: hidden;
 }
